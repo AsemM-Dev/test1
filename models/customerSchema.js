@@ -10,6 +10,8 @@ const userSchema = new Schema({
   age: Number,
   country: String,
   gender: String,
+  
+
 }, { timestamps: true });
 
 // Create a model based on that schema
